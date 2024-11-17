@@ -23,7 +23,7 @@ Recently while conducting a pentest on a web application that utilizes Discourse
 1. **Clone the Repository**:
    ```bash
    git clone https://github.com/quantumthe0ry/Discourse_SSO_Generator.git
-   cd your-repo
+   cd Discourse_SSO_Generator
 2. **Edit the script**:
    - Open the script (`discourse_sso_gen.php`) and replace `YOUR_DISCOURSE_SSO_SECRET` with the actual secret key.
    - Modify the `$userData` array to include the desired user details:
@@ -34,7 +34,7 @@ Recently while conducting a pentest on a web application that utilizes Discourse
     'external_id' => '1234',
     'name' => 'Target User',
     'add_groups' => 'admin' // Optional: Add or remove groups
-];
+   ];
 3. **Run the script**:
     ```bash
     php discourse_sso_gen.php
